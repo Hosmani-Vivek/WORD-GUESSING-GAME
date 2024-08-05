@@ -1,5 +1,8 @@
 import random
 word_list=["HEIGHT","WEIGHT","BOOK","PEN","CLASS","PYTHON"]
+print("Guess a word in the following list")
+print(word_list)
+print( "Guess single letter at once")
 word=random.choice(word_list)
 length=len(word)
 print("length of the word to be guessed is",length)
